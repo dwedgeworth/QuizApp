@@ -1,3 +1,67 @@
-h1 {
-  background-color: green;
+*{
+	color: black;
+	margin: 0;
+	padding: 0;
 }
+
+body {
+	color: white;
+}
+
+
+li {
+	list-style: none;
+}
+
+.js-resultsBox  {
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+}
+
+ul li {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+p::first-letter {
+  text-transform: uppercase;
+  color: red;
+  font-size: 30px;
+}
+
+.js-qContainer  {
+  
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  background-color: gray;
+  max-width: 600px;
+  min-width: 400px;
+  min-height: 200px;
+  border-radius: 5px;
+}
+
+div.js-qContainer:hover{
+  background-color: #667EBF;
+}
+
+#qForm input[type="radio"], label{
+	padding: 10px;
+}
+
+#qForm input[type="submit"]{
+	margin-top: 50px;
+	position: relative;
+	top: 40px;
+	right: 175px;
+	vertical-align: center;
+}
+
+
+
+
+
+
+
